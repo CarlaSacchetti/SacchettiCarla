@@ -1,0 +1,45 @@
+nav{
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+}
+nav div{
+    height: 100px;
+}
+
+
+nav div ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: right;
+    font-size: smaller;
+}
+nav div ul li{
+    padding: 2%;
+    transition: all 1.5s;
+}
+
+nav div ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav div ul li a:hover{
+    color:gray;
+}
+
+nav div ul li:hover{
+    transform: scale(1.2);
+ 
+}   
+
+footer{
+    background-color: gray;
+    border: 5px solid white;
+}
+
+.footer-izq{
+    
+}

@@ -40,6 +40,6 @@ footer{
     border: 5px solid white;
 }
 
-.footer-izq{
-    
+.columna-footer{
+    justify-content: right;
 }

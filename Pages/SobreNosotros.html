@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter+Tight:wght@300&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8f9466b1f2.js" crossorigin="anonymous"></script>
     <title>Sobre Nosotros</title>
 </head>
@@ -38,28 +39,29 @@
     <h2>Valores</h2>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eveniet eligendi perspiciatis repellat error dolore eum quia iste rerum perferendis corporis, repudiandae aliquam voluptate optio quaerat voluptatum saepe natus porro.</p>
 </p></main>
-<section>
- <h2>EQUIPO</h2>
-    <div class="container">
-        <div class="row equipo-padre">
-            <div class="col-3 col-sd-12">
-                <div><img src="../IMG/equipogenerico.png" alt=""></div>
-                <div> Arq. Martin Vorobioff</div> 
-                <div>Jefe de diseño y dirección de obra</div>
-            </div>
-            <div class="col-3 col-sd-12">
-                <div><img src="../IMG/equipogenerico.png" alt=""></div>
-                <div> Arq. Pablo Genesini</div> 
-                <div>Colaboración en obra</div>
-            </div>
-            <div class="col-3 col-sd-12">
-                <div><img src="../IMG/equipogenerico.png" alt=""></div>
-                <div> Arq. Carla Sacchetti</div> 
-                <div>Colaboración area de proyecto.</div>
-            </div>
-        </div>
-    </div>
+<div data-aos="fade-right"><div class="container">
+  <section>
+   <h2>EQUIPO</h2> 
+  <div class="row equipo-padre">
+      <div class="col-3 col-sd-12">
+          <div><img src="../IMG/equipogenerico.png" alt=""></div>
+          <div> Arq. Martin Vorobioff</div> 
+          <div>Jefe de diseño y dirección de obra</div>
+      </div>
+      <div class="col-3 col-sd-12">
+          <div><img src="../IMG/equipogenerico.png" alt=""></div>
+          <div> Arq. Pablo Genesini</div> 
+          <div>Colaboración en obra</div>
+      </div>
+      <div class="col-3 col-sd-12">
+          <div><img src="../IMG/equipogenerico.png" alt=""></div>
+          <div> Arq. Carla Sacchetti</div> 
+          <div>Colaboración area de proyecto.</div>
+      </div>
+  </div>
+</div>
 </section>
+</div>
 <footer id="contacto" class=".bg-dark text-white text-center text-lg-start mi-footer">
     <!-- Grid container -->
     <div class="container p-4">
@@ -110,6 +112,10 @@
     <!-- Copyright -->
   </footer>
 </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

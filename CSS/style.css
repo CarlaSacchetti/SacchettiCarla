@@ -45,7 +45,6 @@ nav div img{
     justify-content: left;
 }   
 main{ 
-    text-align: center;
     margin: 2% 5%;
     color: white;
     font-family: 'Montserrat', sans-serif;}
@@ -54,11 +53,15 @@ main p {
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }   
+
 h1{
     font-size: 4rem;
+    text-align: center;
 }
+
 h2{
     font-size: x-large;
+    text-align: center;
 }
 .div-carousel{
     display: flex;
@@ -70,17 +73,19 @@ h2{
 .mapa{
     margin: 5%;
 }
-footer{
-    background-color: gray;
-    border: 5px solid white;
-    margin: 5% 0%
-}
 
 
 .cards-obras{
-    margin: 5%;
-    padding: 2%;
-    justify-content: center;
+    padding: 2% 2%;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+@media (max-width: 780px){
+    .cards-obras{
+        justify-content: center;
+    }
 }
 
 .card-individual{
@@ -88,8 +93,19 @@ footer{
     justify-content: center;
     background-color: grey;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    }
 
+    .card-li{
+        background-color: grey;
+        color: black
+    }
+    .card-img{
+        transition: all 1.2s;
+    }
+.card-img:hover{
+transform: scale(1.5);
+}
+  
 .mi-btn{
     background-color: black;
     color: white;
@@ -109,4 +125,38 @@ footer{
     background-color: white;
     color: black;
     border: black;
+}
+.bg-light{
+    color: white;
+    background-color: grey;
+}
+.mi-footer{
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lista-iconos{
+    font-size: 1.5rem;
+}
+.iconos{
+    transition: all 1s;
+}
+.iconos:hover{
+    transform: translateX(50px) scale(1.5)
+}
+iframe{
+    margin: 5% 0%;
+}
+.equipo-padre{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+section h2{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
 }

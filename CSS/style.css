@@ -189,6 +189,10 @@ iframe {
   font-size: 18px;
 }
 
+.equipo-individual {
+  border-radius: 50%;
+}
+
 section h2 {
   color: white;
   text-align: center;

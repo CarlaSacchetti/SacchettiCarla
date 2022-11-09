@@ -1,0 +1,121 @@
+
+.div-body{
+    background-color: black;
+}
+
+main{ 
+    margin: 2% 5%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+
+main p {
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: $medio;}   
+
+h1{
+    font-size: $titulo;
+    text-align: center;
+}
+
+h2{
+    font-size: $subtitulos;
+    text-align: center;
+}
+.div-carousel{
+ @extend %display-center;
+    margin: 5%;
+}
+
+.mapa{
+    margin: 5%;
+}
+
+.cards-obras{
+    padding: 2% 2%;
+    justify-content:space-between;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 5%;
+}
+@media (max-width: 780px){
+    .cards-obras{
+        justify-content: center;
+    }
+}
+
+.card-individual{
+    margin: 0% 2%;
+    justify-content: center;
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .card-li{
+        background-color: grey;
+        color: black
+    }
+    .card-img{
+        transition: all 1.2s;
+    }
+.card-img:hover{
+transform: scale(1.5);
+}
+  
+.mi-btn{
+    background-color: black;
+    color: white;
+    border: white solid 3px;
+   display: flex;
+   justify-content: center;
+   align-items: baseline;
+   transition: all 1.5s;
+   font-size: $boton;
+}
+.card-img{
+    margin: 5% 2%;
+    border: solid 2px black;
+    justify-content: center;
+}
+.mi-btn:hover{
+    transform: scale(1.2);
+    background-color: white;
+    color: black;
+    border: black;
+}
+.bg-light{
+    color: white;
+    background-color: grey;
+}
+.mi-footer{
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lista-iconos{
+    font-size: 1.5rem;
+}
+.iconos{
+    transition: all 1s;
+}
+.iconos:hover{
+    transform: translateX(50px) scale(1.5)
+}
+iframe{
+    margin: 5% 0%;
+}
+.equipo-padre{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    font-size: $medio;
+}
+
+section h2{
+    color: white;
+    text-align: center;
+    font-size: $subtitulos;
+}

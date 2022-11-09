@@ -1,0 +1,19 @@
+{
+  "name": "preentrega2-sacchetti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlaSacchetti/SacchettiCarla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlaSacchetti/SacchettiCarla/issues"
+  },
+  "homepage": "https://github.com/CarlaSacchetti/SacchettiCarla#readme"
+}

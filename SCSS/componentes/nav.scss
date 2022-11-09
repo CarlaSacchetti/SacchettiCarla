@@ -1,0 +1,53 @@
+nav{
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    margin: 2% 2% 0% 2%;
+    display: flex;
+    align-items: flex-end;
+     div{
+        ul{
+       @extend %display-right;
+        list-style: none;      
+        font-size: $small;
+            li{
+            padding: 2%;
+            transition: all 1.5s;
+            &:hover{
+                transform: scale(1.2);}
+
+             a{ color: white;
+                text-decoration: none;
+                &:hover{color:gray}
+                }
+             }
+        }
+    }
+}
+
+.menu{
+    @extend %display-right
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.desplegable-mobile{ 
+    background-color: black;
+    color: white
+}
+.items-mobile{
+    background-color: black;
+    color: white;
+}
+ @media (max-width: 500px) {
+        .menu-mobile {
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+          justify-content: right;
+        }
+        .menu{ display: none;}
+
+      }
